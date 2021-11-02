@@ -1,0 +1,211 @@
+h1 {
+  	color: rgb(75, 101, 135);
+	font-size: 40px;
+	font-family: font-family: 'Playfair Display', serif;
+
+}
+h2 {
+  	color: rgb(91, 109, 91);
+	font-size: 25px;
+	font-family: font-family: 'Playfair Display', serif;
+	border-style: dotted;
+	border-radius: 100px;
+	margin: 0 auto 15px;
+}
+
+body {
+  	Background-color: rgb(213, 191, 191);
+  	text-align: center;
+  	font-family: 'Playfair Display', serif;
+}
+{
+	boder:  1px solid red;
+}
+img {
+	border-radius: 70px;
+	box-shadow: 6px 16px 24px rgba(0, 0, 0, 0.4);
+	transition: background-color 2s, transform 2s;	
+}
+
+img:hover{
+	transform: scale(1.05);
+	box-shadow: 6px 16px 24px rgba(0, 0, 0, 0.9);
+}
+
+button {
+	background-color: rgb(200, 198, 198);
+	padding: 20px;
+	border-color: rgb(140, 161, 165);
+	border-width: 4mm;
+	border-radius: 10px;
+	transition: transform 2s;
+}
+button:hover {
+	transform: rotate(360deg);
+}
+
+ul li{
+	list-style: none;
+}
+ul li a {
+	text-decoration: none;
+	color: rgb(17, 50, 77);
+	font-size: 15px;
+}
+ul {
+	padding: 0px;
+}
+
+
+a {
+	text-decoration: none;
+	color: rgb(91, 109, 91);
+	font-size: 35px;
+	background-color: #ffffff00;
+}
+
+	a:hover,
+	a:focus {
+  	color: #333;
+  	background-color: rgb(247, 218, 217);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.Introduction {
+ 	border-style: solid;
+  	border-color: rgb(49, 107, 131);
+  	border-radius: 10px;
+ 	border-width: 1mm;
+ 	Width: 800px;
+ 	margin: 0 auto 15px;
+ 	transition: background-color 2s, transform 2s;
+ 	box-shadow: 6px 16px 24px rgba(0, 0, 0, 0.1);
+ 	background-color: rgb(247, 246, 242);
+}
+.Introduction:hover {
+	transform: scale(1.05);
+	background-color: rgb(254, 251, 243);
+	box-shadow: 6px 16px 24px rgba(0, 0, 0, 0.5);
+}
+
+.aboutme {
+	border-style: solid;
+  	border-color: rgb(49, 107, 131);
+  	border-radius: 10px;
+ 	border-width: 1mm;
+ 	Width: 800px;
+ 	margin: 0 auto 15px;
+ 	transition: background-color 2s, transform 2s;
+ 	box-shadow: 6px 16px 24px rgba(0, 0, 0, 0.1);
+ 	background-color: rgb(247, 246, 242);
+}
+
+.aboutme:hover {
+	transform: scale(1.05);
+	background-color: rgb(254, 251, 243);
+	box-shadow: 6px 16px 24px rgba(0, 0, 0, 0.5);
+}
+
+.hobbies {
+	border-style: solid;
+  	border-color: rgb(49, 107, 131);
+  	border-radius: 10px;
+ 	border-width: 1mm;
+ 	Width: 800px;
+ 	margin: 0 auto 15px;
+ 	transition: background-color 2s, transform 2s;
+ 	box-shadow: 6px 16px 24px rgba(0, 0, 0, 0.1);
+ 	background-color: rgb(247, 246, 242);
+}
+
+.hobbies:hover {
+	transform: scale(1.05);
+	background-color: rgb(254, 251, 243);
+	box-shadow: 6px 16px 24px rgba(0, 0, 0, 0.5);
+}
+
+.articles {
+	border-style: solid;
+  	border-color: rgb(49, 107, 131);
+  	border-radius: 10px;
+ 	border-width: 1mm;
+ 	Width: 800px;
+ 	margin: 0 auto 15px;
+ 	transition: background-color 2s, transform 2s;
+ 	box-shadow: 6px 16px 24px rgba(0, 0, 0, 0.1);
+ 	background-color: rgb(247, 246, 242);
+}
+
+.articles:hover {
+	transform: scale(1.05);
+	background-color: rgb(254, 251, 243);
+	box-shadow: 6px 16px 24px rgba(0, 0, 0, 0.5);
+}
+
+.contact {
+	border-style: solid;
+  	border-color: rgb(49, 107, 131);
+  	border-radius: 10px;
+ 	border-width: 1mm;
+ 	Width: 800px;
+ 	margin: 0 auto 15px;
+ 	transition: background-color 2s, transform 2s;
+ 	box-shadow: 6px 16px 24px rgba(0, 0, 0, 0.1);
+ 	background-color: rgb(247, 246, 242);
+}
+
+.contact:hover {
+	transform: scale(1.05);
+	background-color: rgb(254, 251, 243);
+	box-shadow: 6px 16px 24px rgba(0, 0, 0, 0.5);
+}
+
+
+.navigation {
+  	font-size: 35px;
+  	margin: 0 auto 15px;
+  	font-family: font-family: 'Playfair Display', serif;
+  	transition: background-color 2s, transform 2s;
+}
+
+@media (max-width: 800px) {
+	.Introduction {
+		width: 500px;
+	}
+}
+
+@media (max-width: 800px) {
+	.aboutme {
+		width: 500px;
+	}
+}
+
+@media (max-width: 800px) {
+	.hobbies {
+		width: 500px;
+	}
+}
+
+@media (max-width: 800px) {
+	.articles {
+		width: 500px;
+	}
+}
+
+@media (max-width: 800px) {
+	.contact {
+		width: 500px;
+	}
+}
+
+@media (max-width: 675px) {
+	.h1 {
+		width: 300px;
+	}
+}
+
+
+
